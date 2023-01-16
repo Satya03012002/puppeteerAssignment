@@ -10,11 +10,15 @@ const load = async(url) =>{
         // open new tab and go to url
         const page = await browser.newPage();
         await page.goto(url);
+
         // it will show login page show select the text area and write email and password
+
         const inputfield = await page.$("#email");
         await inputfield.type("################") // write your email
+
         const input = await page.$("#password");
         await input.type("##############")// write your password
+        
         // select login button enter login buttton
         const enter = await page.$("#login_submit");
         await enter.click()
