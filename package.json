@@ -1,0 +1,23 @@
+{
+  "name": "webscraping-npm-i-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satya03012002/webScraping-npm-i-puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satya03012002/webScraping-npm-i-puppeteer/issues"
+  },
+  "homepage": "https://github.com/Satya03012002/webScraping-npm-i-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^19.5.2",
+    "window": "^4.2.7"
+  }
+}
