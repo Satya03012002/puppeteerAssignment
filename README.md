@@ -1,1 +1,4 @@
 # puppeteerAssignment
+Nodejs
+Puppeteer
+cheerio
